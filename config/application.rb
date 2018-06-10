@@ -27,5 +27,7 @@ module BikeBerlinShop
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+    # test to fix heroku error
+    config.assets.serve_static_files = true
   end
 end

@@ -51,6 +51,9 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
+# below line added to test heroku app
+gem 'rails_12factor', group: :production
+# end test line
 group :production do
   gem 'pg', '~>0.20'
 end
